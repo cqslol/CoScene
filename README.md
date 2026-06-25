@@ -143,4 +143,4 @@ MIT. See [LICENSE](LICENSE) for the full text. Use it, fork it, ship it, whateve
 Inspired by [Roblox Studio's Team Create](https://create.roblox.com/docs/projects/collaboration) feature. 
 & [UnityMultiUserPlugin](https://github.com/tmcgillicuddy/UnityMultiUserPlugin) project from 2017.
 
-Built by Me! [(cqs)](https://cqs.lol) 
+Built by [cqs](https://github.com/cqslol)
