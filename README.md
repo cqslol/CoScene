@@ -45,6 +45,12 @@ Object identity is handled with a small component called CoSceneIdentity that st
 
 For v1, conflicts use last-write-wins. If two people move the same object at the same time, the most recent update wins. It's simple and good enough for small teams. Proper locking is on the roadmap.
 
+## Requirements
+
+- **Unity 2021.3 LTS or newer.** CoScene uses `ObjectChangeEvents`, a Unity API added in 2020.2 that fires whenever something in your scene changes. 2021.3 LTS is the minimum we officially support since it's the oldest version most active projects are still on.
+- **.NET Standard 2.1.** This is the default in Unity 2021.3 and newer so you don't need to change anything. It's what gives us access to `System.Net.WebSockets` for the connection to the relay server.
+- **An internet connection** (or LAN) during a session. CoScene needs to reach the relay server while you're collaborating. It does not affect your project when you're working solo.
+
 ## Installation
 
 ### Unity Package Manager (recommended)
