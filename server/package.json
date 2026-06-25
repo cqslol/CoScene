@@ -1,0 +1,13 @@
+{
+  "name": "coscene-relay",
+  "version": "1.0.0",
+  "description": "Relay server for CoScene, real-time collaborative scene editing for Unity.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
